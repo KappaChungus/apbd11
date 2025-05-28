@@ -9,4 +9,5 @@ public class PrescriptionDTO
     public DateTime DatePrescription { get; set; }
     public DateTime DueDate { get; set; }
     public int IdDoctor { get; set; }
+    public List<MedicamentDTO> Medicaments { get; set; }
 }

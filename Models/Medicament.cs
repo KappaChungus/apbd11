@@ -19,5 +19,5 @@ public class Medicament
     [MaxLength(100)]
     public string Type { get; set; }
 
-    public Collection<PrescriptionMedicament> PrescriptionsMedicaments { get; set; }
+    public ICollection<PrescriptionMedicament> PrescriptionMedicaments { get; set; }
 }

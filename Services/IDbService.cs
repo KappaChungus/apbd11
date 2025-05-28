@@ -5,4 +5,5 @@ namespace Tutorial5.Services;
 public interface IDbService
 {
     Task<PatientDataDTO> GetPatientData(int patientId);
+    Task<bool> AddPrescription(NewPrescriptionDTO prescription);
 }
